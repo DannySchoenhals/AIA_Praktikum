@@ -110,7 +110,7 @@ JB=128/256: spill into L2 (higher latency), reducing reuse benefit.
 > Measure scaling as you increase the number of OpenMP threads.
 The reordered (i-k-j) was used for all number of threads to speed things up
 
-| Threads | N=2048 (GFLOP/s) | Speedup |
+| Threads | N=1024 (GFLOP/s) | Speedup |
 |---|------|-------|
 | 1 | 6.09 | 1.00× |
 | 2 | 11.2 | 1.84× |
